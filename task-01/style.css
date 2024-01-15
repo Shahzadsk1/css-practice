@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #293462;
+}
+
+.main-wrapper {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  height: 500px;
+  width: 500px;
+
+  border-radius: 100%;
+  background: #fff1c1;
+  overflow: hidden;
+  position: relative;
+}
+.grouped {
+  transform: rotate(320deg);
+  position: absolute;
+  bottom: -65px;
+  left: 50px;
+}
+.first-rec {
+  height: 75px;
+  width: 110px;
+  background: #fe5f55;
+}
+.second-rec {
+  height: 300px;
+
+  width: 450px;
+  background: #fe5f55;
+}
+
+/* 
+yellow color: #FFF1C1
+orange: #FE5F55
+*/
